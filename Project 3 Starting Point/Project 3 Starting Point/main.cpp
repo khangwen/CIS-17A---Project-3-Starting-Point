@@ -2,6 +2,7 @@
 #include <string>
 #include <memory>
 #include "Guild.h"
+
 using namespace std;
 
 void DisplayGuildInfo(const shared_ptr<Guild> guild);

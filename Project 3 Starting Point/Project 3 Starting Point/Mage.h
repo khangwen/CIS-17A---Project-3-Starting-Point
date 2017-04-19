@@ -1,14 +1,16 @@
 #pragma once
 #include <string>
-class Mage
+#include "Class.h"
+
+class Mage : public Class
 {
 private:
-	std::string _name;
+	//std::string _name;
 public:
 	Mage(std::string name);
 	~Mage();
 
-	std::string GetName() const { return _name; }
-	std::string Attack() { return _name + " casts magic missle at the darkness!"; }	
+	//std::string GetName() const { return _name; }
+	//std::string Attack() { return _name + " casts magic missle at the darkness!"; }	
 };
 
