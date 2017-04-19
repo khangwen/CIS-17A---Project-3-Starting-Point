@@ -11,6 +11,6 @@ public:
 	~Ranger();
 
 	//std::string GetName() const { return _name; }
-	//std::string Attack() { return _name + " shoots arrows at his enemies!  PEW PEW PEW"; }
+	std::string Attack() { return getName() + " shoots arrows at his enemies!  PEW PEW PEW"; }
 };
 

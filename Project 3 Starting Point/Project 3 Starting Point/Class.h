@@ -10,6 +10,6 @@ public:
 	~Class();
 
 	std::string getName() { return _name; }
-	std::string Attack() { return _name + ""; }
+	virtual std::string Attack();
 };
 
